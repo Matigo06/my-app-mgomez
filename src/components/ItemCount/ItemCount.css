@@ -1,0 +1,28 @@
+.StyleCount {
+    height: 6vh;
+    width: 8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: blue;
+    border-color: bisque;
+    border-width: 2px;
+    border-style: groove;
+
+}
+
+.StyleCount {
+    font-size: 18px;
+    font-weight: 525;
+    margin: 0;
+}
+
+.StyleCount>div {
+display: flex;
+justify-items: center;
+}
+
+.StyleCount>div>button {
+    margin: 0 20px;
+}

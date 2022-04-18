@@ -1,0 +1,83 @@
+.NavBar {
+    width: 100vw;
+    height: 15vh;
+    background-color: coral;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 22px;
+}
+
+.styleLogo{
+    height: 60px;
+}
+
+.styleLogo:hover{
+    filter: drop-shadow(0.5px 0.5px 3px rgba(255, 255, 255, 0.75)) ;
+}
+
+.title{
+    font-size: 40px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0 0 10px 0;
+}
+
+.principal{
+    text-decoration: none;
+}
+
+.title:hover{
+    cursor:default;
+    text-shadow: -7px 6px 12px black;
+}
+
+.Secciones{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    -ms-flex-align: center;
+}
+
+.botonMenu{
+    min-width: 150px;
+    min-height: 40px;
+    color:whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    background: linear-gradient(coral,pink);
+    padding: 5px 10px;
+    border-width: 2px;
+    border-color: whitesmoke;
+    border-style: groove;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonMenu:hover{
+    background: radial-gradient(coral, pink);
+    border-color:crimson;
+    border-width: 4px;
+    color: white;
+}
+
+.botonSelected{
+    min-width: 150px;
+    min-height: 40px;
+    color:whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    background-color:indianred ;
+    padding: 5px 10px;
+    border-width: 2px;
+    border-color: whitesmoke;
+    border-style: groove;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
